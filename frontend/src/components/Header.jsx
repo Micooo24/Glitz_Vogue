@@ -157,7 +157,9 @@ const Header = () => {
                                     </div>
                                 </CSSTransition>
                             </span>
-
+                        </div>
+                    </div>
+                </nav>
                             <CSSTransition
                                 in={loginModal}
                                 timeout={300}
@@ -179,10 +181,6 @@ const Header = () => {
                                     closeModal={registerModalSetOpen}
                                 />
                             </CSSTransition>
-                            
-                        </div>
-                    </div>
-                </nav>
             </div>
         </div>
   )
