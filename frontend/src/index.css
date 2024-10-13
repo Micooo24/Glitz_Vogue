@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+:root {
+    --primary-color: #EFA2C6; 
+    --primary-deep-color: #DFDFDF;
+    --secondary-color: #FFBED6;
+    --secondary-deep-color: #94999C;
+    --tertiary-color: #FFDBE5;
+    --gray: rgb(223, 223, 223);
+    
+    --primary-light-:#FEDCDD;
+    --secondary-light:#D6E8B6;
+  
+    --pale:rgb(242, 242, 242);
+  
+    --primary-font: "Raleway", sans-serif;
+    --secondary-font: "Poppins", sans-serif;
+
+    --small-font: 12px;
+    --medium-font: 16px;
+    --large-font: 24px
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: var(--primary-font);
+  }
+  
+  button {
+    all:unset;
+  }
+  
+  .color-sec {
+    color: var(--secondary-color);
+  }
+
+  .border.border-secondary {
+    border:1px solid var(--secondary-color) !important;
+  }
+
+  .border.border-secondary.border-top-0 {
+    border-top: 0px !important;
+  }
+
+.border-primary {
+  border:1px solid var(--primary-color) !important;
+}
+
+  .bg-secondary {
+    background-color: VAR(--secondary-color) !important;
+  }
+
+  .bg-primary {
+    background-color: VAR(--primary-color) !important;
+  }
+
+  .bg-dark {
+    background-color: var(--primary-deep-color) !important;
+  }
+
+  .border-dark {
+    border: 1px solid var(--primary-deep-color) !important;
+  }
+
+  .large-text {
+    font-size: var(--large-font);
+  }

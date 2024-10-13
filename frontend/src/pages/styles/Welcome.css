@@ -1,0 +1,135 @@
+.hero-header {
+    background-image: url('../../assets/newjeans.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    opacity: 0.8; /* Lowers the opacity of the entire section */
+    width: 100%; /* Full width */
+    height: 500px;
+}
+/* .text-glow {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #EFA2C6; 
+    text-shadow: 0 0 10px #FFBED6, 
+                 0 0 20px #FFBED6, 
+                 0 0 30px #FFDBE5, 
+                 0 0 40px #DFDFDF; 
+    animation: throbbing-glow 0.5s infinite alternate; 
+}
+
+@keyframes throbbing-glow {
+    0% {
+        text-shadow: 0 0 10px #FFBED6, 0 0 20px #FFBED6, 0 0 30px #FFDBE5, 0 0 40px #DFDFDF;
+    }
+    100% {
+        text-shadow: 0 0 20px #FFBED6, 0 0 40px #FFBED6, 0 0 60px #FFDBE5, 0 0 80px #DFDFDF;
+    }
+} */
+ 
+/* .text-outline{
+    text-shadow: 
+        -1px -1px 0 black, /* Top-left 
+        1px -1px 0 black,  /* Top-right 
+        -1px 1px 0 black,  /* Bottom-left 
+        1px 1px 0 black;   /* Bottom-right 
+} */
+
+.featurs .featurs-item .featurs-icon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    font-size: 60px;
+    color:white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--secondary-color);
+}
+
+.nav-pills .nav-item a {
+    background-color: var(--gray);
+    padding:20px;
+    color: black !important;
+    text-decoration: none;
+}
+
+.nav-pills .nav-item .active {
+    background-color: var(--secondary-color);
+    padding:20px;
+    color: white !important;
+    text-decoration: none;
+}
+
+.fruite-item {
+    color:black;
+    overflow: hidden;
+}
+
+.fruite-item:hover {
+    transition: .5s;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+}
+
+.fruite .fruite-item .fruite-img {
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    border-radius: 10px 10px 0 0;
+}
+
+.fruite .fruite-item .fruite-img img {
+    transition: transform 0.5s ease;
+}
+
+.fruite .fruite-item .fruite-img img:hover {
+    transform: scale(1.2);
+}
+
+.btn.text-primary {
+    color: var(--primary-color) !important;
+    border: 1px solid var(--secondary-color) !important;
+}
+
+.btn.text-primary:hover {
+    background-color: var(--secondary-color);
+    color: white !important;
+    transition: .5s;
+}
+
+.card-tag {
+    top: 10px;
+    left: 10px;
+    background-color: var(--secondary-color);
+}
+
+.service-item {
+    min-height: 450px;
+}
+
+.service a {
+    text-decoration: none;
+
+}
+
+.service-content {
+    position: relative;
+    z-index: 10;
+    width: 270px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sliding-deck {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex-wrap: nowrap;
+    /* border:1px solid red; */
+    gap: 10px;
+}
+

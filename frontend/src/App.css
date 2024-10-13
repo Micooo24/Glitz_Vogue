@@ -1,0 +1,265 @@
+.text-primary.display-6 {
+    font-weight: 700;
+    color:red;
+}
+
+.text-primary.display-3 {
+    font-size: 62px;
+    font-weight: 700;
+    color:red;
+}
+
+.text-primary.primary-color {
+    color:var(--primary-color) !important;
+}
+
+.text-secondary.secondary-color {
+    color:var(--secondary-color) !important;
+}
+
+.outlet-container {
+    margin-top: 150px;
+}
+
+.fs-7 {
+    font-size: 12px !important;
+}
+
+.sidebar-title {
+    height: 2rem;
+}
+
+.category-container ol, .category-container ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 10px;
+}
+
+ul li a{
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+ul li a:hover{
+    color: var(--secondary-color);
+    transition: .5s ease;
+}
+
+
+.input-button {
+    border:1px solid var(--primary-color);
+    border-radius: 20px;
+    background-color: white;
+    min-height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-button input {
+    all:unset;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.input-button button {
+    background-color: var(--primary-color);
+    border-top-right-radius: 20px;    
+    border-bottom-right-radius: 20px;    
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: .8rem;
+}
+
+.input-button button:hover {
+    background-color: var(--secondary-color);
+    transition: .5s;
+}
+
+.hero-header {
+    background-image: url('https://themewagon.github.io/fruitables/img/hero-img.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+}
+
+.featurs .featurs-item .featurs-icon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    font-size: 60px;
+    color:white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--secondary-color);
+}
+
+.nav-pills .nav-item a {
+    background-color: var(--gray);
+    padding:20px;
+    color: black !important;
+    text-decoration: none;
+}
+
+.nav-pills .nav-item .active {
+    background-color: var(--secondary-color);
+    padding:20px;
+    color: white !important;
+    text-decoration: none;
+}
+
+.fruite-item {
+    color:black;
+    overflow: hidden;
+    width: 300px;
+}
+
+.fruite-item:hover {
+    transition: .5s;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.25);
+}
+
+.fruite .fruite-item .fruite-img {
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    border-radius: 10px 10px 0 0;
+}
+
+.fruite .fruite-item .fruite-img img {
+    transition: transform 0.5s ease;
+}
+
+.fruite .fruite-item .fruite-img img:hover {
+    transform: scale(1.2);
+}
+
+.btn.text-primary {
+    color: var(--primary-color) !important;
+    border: 1px solid var(--secondary-color) !important;
+}
+
+.btn.text-primary:hover {
+    background-color: var(--secondary-color);
+    color: white !important;
+    transition: .5s;
+}
+
+.card-tag {
+    top: 10px;
+    left: 10px;
+    background-color: var(--secondary-color);
+}
+
+.service-item {
+    min-height: 450px;
+}
+
+.service a {
+    text-decoration: none;
+
+}
+
+.service-content {
+    position: relative;
+    z-index: 10;
+    width: 270px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sliding-deck {
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    /* border:1px solid red; */
+    gap: 10px;
+    padding:20px;
+}
+
+.sidebar-container {
+    width: 380px;
+}
+
+.product-container .image-container {
+    height: 125px;
+    width: 125px;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container .contained-img {
+    object-fit: contain;
+}
+
+.image-container .cover-img {
+    object-fit: cover;
+}
+
+.ratings {
+    color: rgb(227, 201, 53);
+}
+
+.oldPrice {
+    color:rgb(150, 33, 33);
+    text-decoration: line-through;
+}
+
+.product-spotlight .image-container {
+    height:500px;
+    width:500px;
+    border-radius: 20px;
+}
+
+.text-gray {
+    color:gray;
+}
+
+.product-spotlight .rating {
+    color:goldenrod;
+    font-size: var(--large-font);
+}
+
+.product-spotlight .quantity {
+    /* border:1px solid red; */
+    padding: 10px 0px;
+}
+
+.quantity .control {
+    cursor: pointer;
+}
+
+.banner-crumbs {
+    width: 100% !important;
+    background-image: url('assets/newjeansbreadcrumb.png');
+    background-color: #F8FFED;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    opacity: 0.8;
+}
+
+.footer-item a:hover {
+    all:unset;
+    cursor: pointer;
+}
+
