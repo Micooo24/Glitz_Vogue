@@ -50,7 +50,7 @@ const customerSchema = new mongoose.Schema({
         required: [true, 'Zip Code is required'],
         validate: {
             validator: function (v) {
-                return v.toString().length === 5; // Accept only 5 digits
+                return v.toString().length === 4; // Accept only 4 digits
             },
             message: props => `${props.value} is not a valid zip code`
         }
